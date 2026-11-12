@@ -1,7 +1,7 @@
 
 # My Projects
 
-##1) Jujutsu kaisan game
+## Jujutsu kaisan game
 
 [🚀 Click here to visit JJk Game](https://pastel-cursed-clash-duel.base44.app)
 
