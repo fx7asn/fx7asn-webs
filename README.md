@@ -1,17 +1,18 @@
 
 # My Projects
 
-## Jujutsu kaisan game
+##1) Jujutsu kaisan game
 
 [🚀 Click here to visit JJk Game](https://pastel-cursed-clash-duel.base44.app)
 
 ## 🚀 My Projects
 
-1. Fabulous AI
+2. Fabulous AI
    
 "🌐 Click here to visit" (https://fabulous-ai-2.base44.app)
 
 3. Octo Focus
+ 
 "🌐 Click here to visit" (https://burrowing-octo-focus-flow.base44.app)
 
 4.  Dentist manager 
