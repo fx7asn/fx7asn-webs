@@ -3,7 +3,7 @@
 
 ## Jujutsu kaisan game
 
-[🚀 Click here to visit JJk Game](https://pastel-cursed-clash-duel.base44.app)
+[🚀 Click here to visit JJk Game](https://jjk-fight.base44.app)
 
 ## 🚀 My Projects
 
