@@ -2,6 +2,8 @@
 
 Welcome to my creative digital space. Here are my featured websites, apps, and creative projects — all in one place.
 
+> **Change a banner:** Replace an image in [`assets/project-banners/`](assets/project-banners/) and, if its filename or extension changes, update that project's image `src` below. See [BANNER-GUIDE.md](BANNER-GUIDE.md) for step-by-step instructions.
+
 <table>
   <tr>
     <td width="50%" valign="top">
