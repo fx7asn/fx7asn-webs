@@ -1,6 +1,35 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
-  <title id="title">Octo Focus</title><desc id="desc">Teal ocean-inspired banner with concentric focus rings.</desc>
-  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071d28"/><stop offset=".55" stop-color="#075363"/><stop offset="1" stop-color="#10253e"/></linearGradient><linearGradient id="ring"><stop stop-color="#5eead4"/><stop offset="1" stop-color="#38bdf8"/></linearGradient></defs>
-  <rect width="1200" height="400" fill="url(#bg)"/><circle cx="990" cy="200" r="170" fill="#2dd4bf" opacity=".1"/><circle cx="990" cy="200" r="128" fill="none" stroke="url(#ring)" stroke-width="3" opacity=".7"/><circle cx="990" cy="200" r="88" fill="none" stroke="#a5f3fc" stroke-width="2" opacity=".7"/><circle cx="990" cy="200" r="48" fill="none" stroke="#fff" stroke-width="2" opacity=".8"/><path d="M990 36v80m0 168v80M826 200h80m168 0h80" stroke="#5eead4" stroke-width="2" opacity=".45"/>
-  <text x="72" y="160" fill="#5eead4" font-family="Arial,sans-serif" font-size="24" font-weight="700" letter-spacing="8">FIND YOUR FLOW</text><text x="68" y="250" fill="#fff" font-family="Arial,sans-serif" font-size="82" font-weight="800">OCTO FOCUS</text><text x="74" y="310" fill="#c7e9ef" font-family="Arial,sans-serif" font-size="25" letter-spacing="4">FOCUS ON WHAT MATTERS</text>
+  <title id="title">Octo Focus</title>
+  <desc id="desc">A calming purple focus dashboard with an octopus mascot, gentle productivity presets, and focus controls.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#100a1d"/><stop offset=".5" stop-color="#211333"/><stop offset="1" stop-color="#120d22"/></linearGradient>
+    <linearGradient id="purple"><stop stop-color="#c084fc"/><stop offset="1" stop-color="#7c3aed"/></linearGradient>
+    <radialGradient id="halo"><stop stop-color="#9b5cff" stop-opacity=".42"/><stop offset="1" stop-color="#7c3aed" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="400" fill="url(#bg)"/>
+  <circle cx="968" cy="202" r="245" fill="url(#halo)"/>
+  <rect x="34" y="28" width="1132" height="344" rx="24" fill="#130e20" stroke="#39264d" stroke-width="2"/>
+  <path d="M278 29v342" stroke="#30213f" stroke-width="2"/>
+  <circle cx="79" cy="76" r="25" fill="#2a1c3d" stroke="#68419a"/>
+  <!-- Simple original octopus mascot -->
+  <path d="M59 83c-5-23 8-37 23-37s28 14 23 37c-2 9-8 14-13 17 2 9 10 13 16 7 8-8 16-1 10 7-10 13-27 8-33-2-7 12-24 15-35 5-7-7-1-16 8-10 6 4 12 2 14-6-7-4-11-10-13-18z" fill="url(#purple)"/>
+  <circle cx="75" cy="70" r="2.5" fill="#fff"/><circle cx="88" cy="70" r="2.5" fill="#fff"/>
+  <text x="117" y="74" fill="#f4edfb" font-family="Georgia,serif" font-size="22" font-weight="700">Octo Focus</text>
+  <text x="117" y="98" fill="#a99ab9" font-family="Arial,sans-serif" font-size="12" letter-spacing="4">LIMIT GOONING</text>
+  <rect x="53" y="127" width="197" height="38" rx="12" fill="#2d1d43" stroke="#674194"/><path d="M70 140h16m-16 7h16m-16 7h10" stroke="#c084fc" stroke-width="2" stroke-linecap="round"/><text x="99" y="152" fill="#f0e9f7" font-family="Arial,sans-serif" font-size="15">Limits</text>
+  <text x="68" y="205" fill="#b7a9c5" font-family="Arial,sans-serif" font-size="15">Today</text><text x="68" y="240" fill="#b7a9c5" font-family="Arial,sans-serif" font-size="15">Stats</text><text x="68" y="275" fill="#b7a9c5" font-family="Arial,sans-serif" font-size="15">Study</text><text x="68" y="310" fill="#b7a9c5" font-family="Arial,sans-serif" font-size="15">Settings</text>
+  <text x="322" y="73" fill="#bda6d5" font-family="Arial,sans-serif" font-size="14" letter-spacing="5">BOUNDARIES</text>
+  <text x="320" y="122" fill="#fff" font-family="Georgia,serif" font-size="43" font-weight="700">Your limits</text>
+  <text x="324" y="153" fill="#b7a9c5" font-family="Arial,sans-serif" font-size="17">Small boundaries make room for the things you care about.</text>
+  <g font-family="Arial,sans-serif">
+    <rect x="324" y="180" width="246" height="66" rx="17" fill="#21172e" stroke="#4b315e"/><text x="344" y="207" fill="#f2eafb" font-size="17" font-weight="700">Gentle</text><text x="344" y="229" fill="#a99ab9" font-size="13">A soft nudge, plenty of room</text>
+    <rect x="585" y="180" width="246" height="66" rx="17" fill="#2a1a3e" stroke="#9b5cff" stroke-width="2"/><text x="605" y="207" fill="#f2eafb" font-size="17" font-weight="700">Balanced</text><text x="605" y="229" fill="#b9a8c9" font-size="13">A little structure, more focus</text>
+    <rect x="846" y="180" width="272" height="66" rx="17" fill="#21172e" stroke="#4b315e"/><text x="866" y="207" fill="#f2eafb" font-size="17" font-weight="700">Focused</text><text x="866" y="229" fill="#a99ab9" font-size="13">Tight and intentional</text>
+  </g>
+  <rect x="324" y="266" width="794" height="75" rx="18" fill="#1b1427" stroke="#382546"/>
+  <rect x="344" y="282" width="42" height="42" rx="13" fill="#2e1e43"/><path d="M356 294h18v18h-18zM360 290v4m10-4v4m-14 3h26" fill="none" stroke="#c084fc" stroke-width="2"/>
+  <text x="402" y="300" fill="#eee6f6" font-family="Arial,sans-serif" font-size="16" font-weight="700">Instagram Reels</text>
+  <text x="402" y="321" fill="#a99ab9" font-family="Arial,sans-serif" font-size="13">Instagram · Per rolling hour</text>
+  <rect x="1054" y="286" width="42" height="23" rx="12" fill="#7141a0"/><circle cx="1084" cy="297.5" r="8" fill="#fff"/>
+  <text x="324" y="360" fill="#bda6d5" font-family="Arial,sans-serif" font-size="13" letter-spacing="2">PAUSE THE NOISE. FIND YOUR FLOW.</text>
 </svg>

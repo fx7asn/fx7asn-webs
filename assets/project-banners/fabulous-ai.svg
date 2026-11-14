@@ -1,6 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
-  <title id="title">Fabulous AI</title><desc id="desc">Violet and blue gradient banner with abstract glowing shapes.</desc>
-  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#17102f"/><stop offset=".55" stop-color="#39206b"/><stop offset="1" stop-color="#123b66"/></linearGradient><linearGradient id="orb"><stop stop-color="#f0abfc"/><stop offset="1" stop-color="#60a5fa"/></linearGradient></defs>
-  <rect width="1200" height="400" fill="url(#bg)"/><circle cx="980" cy="185" r="155" fill="url(#orb)" opacity=".16"/><circle cx="980" cy="185" r="105" fill="none" stroke="#d8b4fe" stroke-width="2" opacity=".65"/><circle cx="980" cy="185" r="68" fill="none" stroke="#93c5fd" stroke-width="2" opacity=".75"/><path d="M850 280 1085 55M890 330 1130 95M800 210 1030 0" stroke="#c4b5fd" stroke-width="2" opacity=".35"/>
-  <text x="72" y="160" fill="#c4b5fd" font-family="Arial,sans-serif" font-size="24" font-weight="700" letter-spacing="8">CREATE • IMAGINE • DISCOVER</text><text x="68" y="250" fill="#fff" font-family="Arial,sans-serif" font-size="82" font-weight="800">FABULOUS AI</text><text x="74" y="310" fill="#d8d2eb" font-family="Arial,sans-serif" font-size="25" letter-spacing="4">YOUR CREATIVE SPACE</text>
+  <title id="title">Fabulous AI</title>
+  <desc id="desc">A polished AI assistant workspace with a dark navy interface, lavender and coral accents, conversation bubbles, and a prompt composer.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#090d1a"/><stop offset=".58" stop-color="#151329"/><stop offset="1" stop-color="#21132b"/></linearGradient>
+    <linearGradient id="accent"><stop stop-color="#fb70b9"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+    <linearGradient id="panel"><stop stop-color="#1c2033"/><stop offset="1" stop-color="#171629"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="28"/></filter>
+  </defs>
+  <rect width="1200" height="400" fill="url(#bg)"/>
+  <circle cx="1020" cy="80" r="190" fill="#a855f7" opacity=".16" filter="url(#glow)"/>
+  <rect x="34" y="28" width="1132" height="344" rx="24" fill="#0c101c" stroke="#39344b" stroke-width="2"/>
+  <path d="M292 29v342" stroke="#302b40" stroke-width="2"/>
+  <rect x="55" y="49" width="40" height="40" rx="13" fill="url(#accent)"/>
+  <path d="M67 70h16m-8-8v16" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+  <text x="108" y="77" fill="#f8f6ff" font-family="Arial,sans-serif" font-size="24" font-weight="700">Fabulous AI</text>
+  <rect x="55" y="118" width="210" height="37" rx="11" fill="#222033"/>
+  <rect x="69" y="130" width="14" height="14" rx="4" fill="#c084fc"/><text x="94" y="143" fill="#f1eefa" font-family="Arial,sans-serif" font-size="16">New conversation</text>
+  <text x="62" y="190" fill="#908ba5" font-family="Arial,sans-serif" font-size="14" letter-spacing="2">YOUR WORKSPACE</text>
+  <circle cx="74" cy="220" r="6" fill="#fb70b9"/><text x="94" y="226" fill="#c9c4d5" font-family="Arial,sans-serif" font-size="16">Projects</text>
+  <circle cx="74" cy="255" r="6" fill="#a78bfa"/><text x="94" y="261" fill="#c9c4d5" font-family="Arial,sans-serif" font-size="16">Explore ideas</text>
+  <circle cx="74" cy="290" r="6" fill="#7dd3fc"/><text x="94" y="296" fill="#c9c4d5" font-family="Arial,sans-serif" font-size="16">Saved chats</text>
+  <text x="342" y="83" fill="#c4b5fd" font-family="Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="5">YOUR CREATIVE AI ASSISTANT</text>
+  <text x="338" y="135" fill="#fff" font-family="Georgia,serif" font-size="43" font-weight="700">What can we imagine?</text>
+  <text x="342" y="166" fill="#aaa5b8" font-family="Arial,sans-serif" font-size="18">Think, write, plan, and build — all in one conversation.</text>
+  <rect x="344" y="194" width="760" height="58" rx="16" fill="url(#panel)" stroke="#413950"/>
+  <circle cx="370" cy="223" r="10" fill="url(#accent)"/><path d="M370 217v12m-6-6h12" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+  <text x="394" y="230" fill="#aaa5b8" font-family="Arial,sans-serif" font-size="16">Ask Fabulous AI anything...</text>
+  <rect x="1050" y="204" width="39" height="38" rx="12" fill="url(#accent)"/><path d="M1062 224l7-7 7 7m-7-7v15" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="344" y="277" width="225" height="65" rx="14" fill="#19182a" stroke="#383047"/><circle cx="367" cy="300" r="6" fill="#fb70b9"/><text x="383" y="305" fill="#e9e5f0" font-family="Arial,sans-serif" font-size="15" font-weight="700">Write something</text><text x="362" y="327" fill="#9d97ac" font-family="Arial,sans-serif" font-size="13">Draft, rewrite, brainstorm</text>
+  <rect x="581" y="277" width="225" height="65" rx="14" fill="#19182a" stroke="#383047"/><circle cx="604" cy="300" r="6" fill="#a78bfa"/><text x="620" y="305" fill="#e9e5f0" font-family="Arial,sans-serif" font-size="15" font-weight="700">Learn something</text><text x="599" y="327" fill="#9d97ac" font-family="Arial,sans-serif" font-size="13">Explore a new idea</text>
+  <rect x="818" y="277" width="286" height="65" rx="14" fill="#19182a" stroke="#383047"/><circle cx="841" cy="300" r="6" fill="#7dd3fc"/><text x="857" y="305" fill="#e9e5f0" font-family="Arial,sans-serif" font-size="15" font-weight="700">Make a plan</text><text x="836" y="327" fill="#9d97ac" font-family="Arial,sans-serif" font-size="13">Turn a goal into clear steps</text>
 </svg>

@@ -11,7 +11,7 @@ Welcome to my creative digital space. Here are my featured websites, apps, and c
         <img src="assets/project-banners/jjk-game.svg" alt="Jujutsu Kaisen Game banner" width="100%" />
       </a>
       <h3>🎮 Jujutsu Kaisen Game</h3>
-      <p>Fast-paced, action-inspired gameplay with a dark anime vibe.</p>
+      <p>Anime-inspired action with a dramatic violet cursed-energy atmosphere.</p>
       <p>
         <a href="https://asn7.itch.io/jjkfight">
           <img src="https://img.shields.io/badge/PLAY%20NOW-22C55E?style=for-the-badge&logo=itchdotio&logoColor=white" alt="Play Now" />
@@ -23,7 +23,7 @@ Welcome to my creative digital space. Here are my featured websites, apps, and c
         <img src="assets/project-banners/fabulous-ai.svg" alt="Fabulous AI banner" width="100%" />
       </a>
       <h3>✨ Fabulous AI</h3>
-      <p>Creative AI experiences built to explore ideas, workflows, and imagination.</p>
+      <p>An AI assistant for writing, brainstorming, learning, and planning — with its own colorful style.</p>
       <p>
         <a href="https://fabulous-ai-2.base44.app">
           <img src="https://img.shields.io/badge/VISIT%20SITE-2563EB?style=for-the-badge&logoColor=white" alt="Visit Fabulous AI" />
@@ -37,7 +37,7 @@ Welcome to my creative digital space. Here are my featured websites, apps, and c
         <img src="assets/project-banners/octo-focus.svg" alt="Octo Focus banner" width="100%" />
       </a>
       <h3>🐙 Octo Focus</h3>
-      <p>A productivity-focused project designed to help you stay centered and organized.</p>
+      <p>A purple-themed focus and digital-boundaries app to help you stay centered and organized.</p>
       <p>
         <a href="https://burrowing-octo-focus-flow.base44.app">
           <img src="https://img.shields.io/badge/VISIT%20SITE-2563EB?style=for-the-badge&logoColor=white" alt="Visit Octo Focus" />
