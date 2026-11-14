@@ -5,7 +5,7 @@ Welcome to my creative digital space. Here are my featured websites, apps, and c
 
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td width="50%" valign="top" bgcolor="#F3E8FF">
       <a href="https://asn7.itch.io/jjkfight">
         <img src="assets/project-banners/file_0000000039248211b4cbea6b8ec59961.png" alt="Jujutsu Kaisen Game banner" width="100%" />
       </a>
@@ -17,7 +17,7 @@ Welcome to my creative digital space. Here are my featured websites, apps, and c
         </a>
       </p>
     </td>
-    <td width="50%" valign="top">
+    <td width="50%" valign="top" bgcolor="#FCE7F3">
       <a href="https://fabulous-ai-2.base44.app">
         <img src="assets/project-banners/fabulous-ai.svg" alt="Fabulous AI banner" width="100%" />
       </a>
@@ -31,7 +31,7 @@ Welcome to my creative digital space. Here are my featured websites, apps, and c
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
+    <td width="50%" valign="top" bgcolor="#EDE9FE">
       <a href="https://burrowing-octo-focus-flow.base44.app">
         <img src="assets/project-banners/octo-focus.svg" alt="Octo Focus banner" width="100%" />
       </a>
@@ -43,7 +43,7 @@ Welcome to my creative digital space. Here are my featured websites, apps, and c
         </a>
       </p>
     </td>
-    <td width="50%" valign="top">
+    <td width="50%" valign="top" bgcolor="#E0F7FA">
       <a href="https://huge-dent-flow-pro.base44.app">
         <img src="assets/project-banners/dentist-manager.svg" alt="Dentist Manager banner" width="100%" />
       </a>
@@ -62,7 +62,7 @@ Welcome to my creative digital space. Here are my featured websites, apps, and c
 
 ### About this space
 
-💻 This repository is my creative portfolio — a collection of websites, web apps, experiments, and personal projects. Every build reflects curiosity, creativity, and a love for turning ideas into [...]
+💻 This repository is my creative portfolio — a collection of websites, web apps, experiments, and personal projects. Every build reflects curiosity, creativity, and a love for turning ideas into reality.
 
 <p align="center">
   <img src="https://img.shields.io/badge/Creative%20Portfolio-Always%20Growing-8B5CF6?style=for-the-badge" alt="Creative portfolio badge" />
