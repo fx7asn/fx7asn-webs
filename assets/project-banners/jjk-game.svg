@@ -1,55 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
-  <title id="title">JJK FIGHT — Sorcerers, ready for battle</title>
-  <desc id="desc">The supplied Jujutsu Kaisen ensemble artwork enhanced with a cinematic purple manga-comic treatment and a compact PLAY NOW game button.</desc>
-  <defs>
-    <linearGradient id="shade" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#100a20" stop-opacity=".42"/>
-      <stop offset=".46" stop-color="#160d28" stop-opacity=".08"/>
-      <stop offset="1" stop-color="#0c0718" stop-opacity=".42"/>
-    </linearGradient>
-    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#e7a5ff"/>
-      <stop offset=".48" stop-color="#b044ff"/>
-      <stop offset="1" stop-color="#742aff"/>
-    </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#26133b" stop-opacity=".96"/>
-      <stop offset="1" stop-color="#100b1b" stop-opacity=".96"/>
-    </linearGradient>
-    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="drop" x="-30%" y="-30%" width="160%" height="180%">
-      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#07040d" flood-opacity=".7"/>
-    </filter>
-    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
-      <circle cx="1.5" cy="1.5" r="1" fill="#e9c2ff" opacity=".55"/>
-    </pattern>
-  </defs>
-
-  <!-- Original supplied ensemble artwork remains the central focus. -->
-  <image href="https://raw.githubusercontent.com/fx7asn/fx7asn-webs/fba11dd7896ce2df0d2eddaf86422d138706df51/assets/project-banners/jjk-game.svg" width="1200" height="400" preserveAspectRatio="xMidYMid slice"/>
-  <rect width="1200" height="400" fill="url(#shade)"/>
-
-  <!-- Manga energy accents: restrained so faces and the ensemble stay visible. -->
-  <g fill="none" stroke="url(#neon)" stroke-linecap="round" filter="url(#glow)" opacity=".88">
-    <path d="M-24 112 106 40M-8 146 136 66M1103 36l120 58M1084 62l132 63" stroke-width="3"/>
-    <path d="M1027 291c40-25 72-57 96-97M1051 310c47-23 85-60 112-109" stroke-width="2" opacity=".7"/>
-    <path d="M24 374 76 344M1095 380l74-43" stroke-width="2" opacity=".72"/>
-  </g>
-  <path d="M0 0h210L0 92zM1200 0h-190l190 94z" fill="url(#dots)" opacity=".35"/>
-  <path d="M0 0h1200v8H0zM0 392h1200v8H0z" fill="#b94dff" opacity=".72"/>
-  <path d="M0 0h8v400H0zM1192 0h8v400h-8z" fill="#c564ff" opacity=".62"/>
-
-  <!-- Small game-UI callout in the lower-right corner, clear of the main cast. -->
-  <g transform="translate(936 298)" filter="url(#drop)">
-    <path d="M10 0h226l18 18v66H0V12z" fill="url(#panel)" stroke="#d78aff" stroke-width="2"/>
-    <path d="M10 0h226l18 18H0z" fill="#bd57ff" opacity=".22"/>
-    <path d="M14 17h4v48h-4z" fill="#e9b5ff"/>
-    <text x="30" y="31" fill="#d9b3ed" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" letter-spacing="3">CURSED ENERGY // 07</text>
-    <text x="30" y="59" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="900" letter-spacing="1.5">PLAY NOW</text>
-    <path d="m214 34 14 9-14 9z" fill="#fff"/>
-    <path d="M202 26v35" stroke="#c886ef" stroke-width="1" opacity=".7"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 736 414" role="img" aria-labelledby="title desc">
+  <title id="title">Jujutsu Kaisen Game banner</title>
+  <desc id="desc">The original Jujutsu Kaisen image, shown without overlays or effects.</desc>
+  <image href="https://raw.githubusercontent.com/fx7asn/fx7asn-webs/fba11dd7896ce2df0d2eddaf86422d138706df51/assets/project-banners/jjk-game.svg" x="0" y="0" width="736" height="414" preserveAspectRatio="none" />
 </svg>
