@@ -7,7 +7,7 @@ Welcome to my creative digital space! Here are my websites and projects, arrange
     <td width="50%" valign="top">
       <h3>🎮 Jujutsu Kaisen Game</h3>
       <p>A game inspired by Jujutsu Kaisen.</p>
-      <p><a href="https://jjk-fight.base44.app">🚀 Play the game</a> · <a href="https://asn7.itch.io/jjkfight">Itch.io</a></p>
+      <p><a href="https://asn7.itch.io/jjkfight">🚀 Play the game</a></p>
     </td>
     <td width="50%" valign="top">
       <h3>✨ Fabulous AI</h3>
