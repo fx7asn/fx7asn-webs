@@ -1,24 +1,34 @@
-https://asn7.itch.io/jjkfight
-# My Projects
+# My Websites & Projects
 
-## Jujutsu kaisan game
+Welcome to my creative digital space! Here are my websites and projects, arranged in a simple gallery.
 
-[🚀 Click here to visit JJk Game](https://jjk-fight.base44.app)
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🎮 Jujutsu Kaisen Game</h3>
+      <p>A game inspired by Jujutsu Kaisen.</p>
+      <p><a href="https://jjk-fight.base44.app">🚀 Play the game</a> · <a href="https://asn7.itch.io/jjkfight">Itch.io</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>✨ Fabulous AI</h3>
+      <p>Explore my Fabulous AI project.</p>
+      <p><a href="https://fabulous-ai-2.base44.app">🌐 Visit Fabulous AI</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🐙 Octo Focus</h3>
+      <p>A project to help you stay focused.</p>
+      <p><a href="https://burrowing-octo-focus-flow.base44.app">🌐 Visit Octo Focus</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🦷 Dentist Manager</h3>
+      <p>A dentist management project.</p>
+      <p><a href="https://huge-dent-flow-pro.base44.app">🌐 Visit Dentist Manager</a></p>
+    </td>
+  </tr>
+</table>
 
-## 🚀 My Projects
+---
 
-2. Fabulous AI
-   
-"🌐 Click here to visit" (https://fabulous-ai-2.base44.app)
-
-3. Octo Focus
- 
-"🌐 Click here to visit" (https://burrowing-octo-focus-flow.base44.app)
-
-4.  Dentist manager 
-
-"🌐 Click here to visit" (https://huge-dent-flow-pro.base44.app)
-
-
-# My-webs
-🚀 Welcome to my creative digital space! 💻✨ This repository is where I showcase my websites, web apps, experiments, and personal projects. Every creation reflects my curiosity, creativity, and passion for technology. 🌱 Always building, learning, exploring, and turning ideas into reality. ⚡
+💻 This repository is where I showcase my websites, web apps, experiments, and personal projects. Every creation reflects my curiosity and creativity.
