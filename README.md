@@ -2,6 +2,11 @@
 
 Welcome to my creative digital space. Here are my featured websites, apps, and creative projects — all in one place.
 
+<p align="center">
+  <a href="https://asn7.itch.io/jjkfight">
+    <img src="https://raw.githubusercontent.com/fx7asn/fx7asn-webs/main/jjk-game.jpg" alt="Jujutsu Kaisen Fight — full-width game banner featuring the anime's characters" width="100%" />
+  </a>
+</p>
 
 <table>
   <tr>
@@ -62,7 +67,7 @@ Welcome to my creative digital space. Here are my featured websites, apps, and c
 
 ### About this space
 
-💻 This repository is my creative portfolio — a collection of websites, web apps, experiments, and personal projects. Every build reflects curiosity, creativity, and a love for turning ideas into digital experiences.
+💻 This repository is my creative portfolio — a collection of websites, web apps, experiments, and personal projects. Every build reflects curiosity, creativity, and a love for turning ideas into [...] 
 
 <p align="center">
   <img src="https://img.shields.io/badge/Creative%20Portfolio-Always%20Growing-8B5CF6?style=for-the-badge" alt="Creative portfolio badge" />
