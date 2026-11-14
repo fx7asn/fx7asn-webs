@@ -1,82 +1,112 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
   <title id="title">Jujutsu Kaisen Game — Cursed Clash</title>
-  <desc id="desc">A high-impact anime-inspired battle poster with a sorcerer silhouette, violet cursed energy, and bold JJK Fight lettering.</desc>
+  <desc id="desc">A manga-inspired Jujutsu Kaisen battle poster with bold title lettering and a five-character sorcerer lineup in dramatic violet and crimson light.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#070812"/><stop offset=".52" stop-color="#17102d"/><stop offset="1" stop-color="#05060d"/>
-    </linearGradient>
-    <radialGradient id="aura" cx="72%" cy="46%" r="53%">
-      <stop stop-color="#d9c7ff" stop-opacity=".95"/><stop offset=".16" stop-color="#9c5cff" stop-opacity=".85"/><stop offset=".42" stop-color="#5424c7" stop-opacity=".48"/><stop offset="1" stop-color="#160b2c" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#f2eaff"/><stop offset=".28" stop-color="#c49aff"/><stop offset=".7" stop-color="#7c3cff"/><stop offset="1" stop-color="#4814a6"/>
-    </linearGradient>
-    <linearGradient id="coat" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#25243a"/><stop offset=".5" stop-color="#11121e"/><stop offset="1" stop-color="#05060b"/>
-    </linearGradient>
-    <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#ffe2d5"/><stop offset="1" stop-color="#ad7793"/>
-    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070812"/><stop offset=".52" stop-color="#17102d"/><stop offset="1" stop-color="#05060d"/></linearGradient>
+    <radialGradient id="aura" cx="72%" cy="46%" r="53%"><stop stop-color="#d9c7ff" stop-opacity=".95"/><stop offset=".16" stop-color="#9c5cff" stop-opacity=".85"/><stop offset=".42" stop-color="#5424c7" stop-opacity=".48"/><stop offset="1" stop-color="#160b2c" stop-opacity="0"/></radialGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f2eaff"/><stop offset=".28" stop-color="#c49aff"/><stop offset=".7" stop-color="#7c3cff"/><stop offset="1" stop-color="#4814a6"/></linearGradient>
+    <linearGradient id="coat" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#34304b"/><stop offset=".5" stop-color="#151421"/><stop offset="1" stop-color="#06070d"/></linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffe2d5"/><stop offset="1" stop-color="#ad7793"/></linearGradient>
     <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="17"/></filter>
     <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5"/></filter>
-    <pattern id="grain" width="90" height="90" patternUnits="userSpaceOnUse">
-      <circle cx="7" cy="12" r="1" fill="#fff" opacity=".17"/><circle cx="52" cy="33" r="1" fill="#cbb2ff" opacity=".16"/><circle cx="28" cy="72" r="1.2" fill="#fff" opacity=".12"/><circle cx="78" cy="81" r=".8" fill="#fff" opacity=".14"/>
-    </pattern>
+    <pattern id="grain" width="90" height="90" patternUnits="userSpaceOnUse"><circle cx="7" cy="12" r="1" fill="#fff" opacity=".17"/><circle cx="52" cy="33" r="1" fill="#cbb2ff" opacity=".16"/><circle cx="28" cy="72" r="1.2" fill="#fff" opacity=".12"/><circle cx="78" cy="81" r=".8" fill="#fff" opacity=".14"/></pattern>
+    <linearGradient id="panelFade" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#090812"/><stop offset=".55" stop-color="#090812" stop-opacity=".72"/><stop offset="1" stop-color="#090812" stop-opacity="0"/></linearGradient>
   </defs>
 
   <rect width="1200" height="675" fill="url(#bg)"/>
   <path d="M0 0h1200v675H0z" fill="url(#aura)"/>
   <path d="M0 0h1200v675H0z" fill="url(#grain)"/>
 
-  <!-- cursed-energy halo -->
+  <!-- cursed-energy halo and manga speed lines -->
   <g fill="none" stroke-linecap="round">
-    <circle cx="852" cy="322" r="245" stroke="#9c5cff" stroke-width="2" opacity=".25"/>
-    <circle cx="852" cy="322" r="211" stroke="#d5b9ff" stroke-width="1" stroke-dasharray="3 13" opacity=".5"/>
-    <path d="M644 91c104-81 278-82 386 3M661 551c111 85 277 72 377-5" stroke="#b98bff" stroke-width="4" opacity=".45"/>
-    <path d="M790 61l24 107m176-79-53 105m165 14-99 47m-339 233 108-70m277 95-76-97" stroke="#e9d8ff" stroke-width="3" opacity=".5"/>
+    <circle cx="900" cy="330" r="258" stroke="#9c5cff" stroke-width="2" opacity=".28"/>
+    <circle cx="900" cy="330" r="224" stroke="#d5b9ff" stroke-width="1" stroke-dasharray="3 13" opacity=".5"/>
+    <path d="M632 93c128-95 333-88 454 10M644 559c125 78 319 63 430-14" stroke="#b98bff" stroke-width="4" opacity=".45"/>
+    <path d="M596 168l215 54m-159 355 190-128m169-364-74 142m190 147-153 25m-11 236-67-116" stroke="#e9d8ff" stroke-width="3" opacity=".5"/>
+    <path d="M576 95l161 104M583 580l178-111m401-377-127 125m162 191-174 37" stroke="#fff" stroke-width="1.5" opacity=".35"/>
   </g>
   <path d="M0 493 407 0h32L80 675H0zm448 182L996 0h24L493 675z" fill="#8a44ff" opacity=".12"/>
 
-  <!-- energy flares behind the fighter -->
-  <g filter="url(#glow)" opacity=".78">
-    <path d="M838 103c70 52 123 119 141 208-59-41-91-69-119-122-28 79-75 135-151 181 34-106 49-190 129-267z" fill="#9c5cff"/>
-    <path d="M1018 271c-60 57-112 98-204 116 71 28 128 62 175 128-6-94 12-167 29-244z" fill="#6327e8"/>
-  </g>
-  <g fill="none" stroke-linecap="round">
-    <path d="M698 422c96-82 163-171 201-291m-169 318c94-52 179-129 249-231m-197 288c108-32 196-86 277-168" stroke="#d8c0ff" stroke-width="5" opacity=".85"/>
-    <path d="M736 455c98-117 144-206 167-327m-84 325c92-72 162-145 216-234" stroke="#fff" stroke-width="1.5" opacity=".8"/>
+  <!-- violet and crimson cursed-energy bursts -->
+  <g filter="url(#glow)" opacity=".72">
+    <path d="M855 92c78 70 123 143 133 232-55-39-95-82-119-131-26 80-75 145-163 193 42-113 67-214 149-294z" fill="#9c5cff"/>
+    <path d="M1060 192c-47 79-100 139-187 190 85 10 151 35 218 91-25-91-28-177-31-281z" fill="#6327e8"/>
+    <path d="M667 237c45 27 82 66 103 119-47-10-86-27-124-57 14 60 8 114-20 177-24-77-43-151-20-239z" fill="#ff426e"/>
   </g>
 
-  <!-- anime-inspired sorcerer silhouette -->
-  <g>
-    <!-- shoulders and uniform -->
-    <path d="M689 675c12-113 40-175 100-207 42-23 84-31 139-22 81 13 126 86 149 229H689z" fill="url(#coat)" stroke="#7961a8" stroke-width="3"/>
-    <path d="M842 446l-47 99 72 130h111l30-135-74-101z" fill="#11111b"/>
-    <path d="M795 546l76 39-41 90-71-75zm213-43-79 52 36 117 67-36z" fill="#27213b"/>
-    <path d="M850 465l34 45 38-41 35 42-39 160h-63l-41-154z" fill="#080911" stroke="#a783ed" stroke-width="2"/>
-    <path d="M882 515l22 24 22-24 13 145h-69z" fill="#171321"/>
-    <!-- neck / face -->
-    <path d="M842 309c-4-78 32-132 92-134 62-2 97 49 87 129l-15 93c-12 44-48 72-83 70-40-3-69-39-75-84z" fill="url(#skin)"/>
-    <path d="M838 311c-13-91 28-166 94-177 69-11 122 42 111 133-22-20-42-42-56-70-29 34-75 56-149 58z" fill="#eee9ff"/>
-    <path d="M860 275c10-55 41-96 81-112-23 38-27 63-24 95-16-9-33-10-57 17zm81-113c42 7 70 34 88 71-28-14-49-20-74-15 9-17 1-37-14-56zm36 118c22-30 43-42 68-43-6 28-23 50-52 64z" fill="#c9b9f1"/>
-    <!-- blindfold and face detail -->
-    <path d="M842 297c48-17 118-24 177-3l-9 42c-53-15-111-10-159 12z" fill="#12111e"/>
-    <path d="M851 304c53-13 104-17 158-3" fill="none" stroke="#b895f1" stroke-width="3" opacity=".8"/>
-    <path d="M925 384c13 10 30 11 43 2" fill="none" stroke="#713c68" stroke-width="3" stroke-linecap="round"/>
-    <path d="M896 432c19 11 49 13 68 2" fill="none" stroke="#754b75" stroke-width="3" opacity=".7"/>
-    <!-- raised hand -->
-    <path d="M725 380c-5-23 8-44 25-53l41-23 17 20-30 23 48-21 13 20-46 31 39-10 10 22-67 29-31 2z" fill="url(#skin)" stroke="#f4c8ee" stroke-width="3"/>
-    <path d="M755 365l37-21m-22 40 39-19m-24 38 36-17" fill="none" stroke="#81527e" stroke-width="3" stroke-linecap="round"/>
-    <path d="M774 317l14-26 15 8-12 31" fill="url(#skin)" stroke="#f4c8ee" stroke-width="2"/>
-    <path d="M805 329c30-13 49-17 72-12" fill="none" stroke="#d8baff" stroke-width="4" opacity=".9"/>
+  <!-- five manga-inspired sorcerer portraits; shared inked uniform shapes -->
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <!-- Yuji: pink hair, red-lit collar, forward stance -->
+    <g transform="translate(566 265)">
+      <path d="M5 410c6-116 26-197 87-230 40-21 91-18 126 7 47 34 61 113 69 223z" fill="#181824" stroke="#b84b72" stroke-width="4"/>
+      <path d="M91 188l45 48 48-45 33 31-23 181h-112l-26-177z" fill="#262333" stroke="#f05d85" stroke-width="3"/>
+      <path d="M117 219l20 30 20-30 20 29-20 155h-44l-20-155z" fill="#0c0d15"/>
+      <path d="M102 95c-1-58 27-93 72-93 47 0 72 38 68 96l-8 66c-8 34-32 58-62 58-31 0-55-25-64-60z" fill="url(#skin)" stroke="#211522" stroke-width="5"/>
+      <path d="M97 100C78 47 107-1 144-17l-3 43 34-47 3 46 37-33-8 42 39-10-12 57-30-13-33 9-35-16-29 28z" fill="#e6a3bd" stroke="#241824" stroke-width="6"/>
+      <path d="M117 126l38 8m40-8 30-7" fill="none" stroke="#311b2a" stroke-width="5"/>
+      <path d="M164 167c15 8 32 7 45-2" fill="none" stroke="#7a3d54" stroke-width="4"/>
+      <path d="M49 296l31-64m179 34 28 56" stroke="#ff668b" stroke-width="5" opacity=".9"/>
+    </g>
+
+    <!-- Megumi: dark spiked hair, cool blue edge light -->
+    <g transform="translate(698 238)">
+      <path d="M4 437c13-120 29-203 85-238 40-25 91-24 131 2 50 32 68 117 75 236z" fill="#111722" stroke="#4e9bc9" stroke-width="4"/>
+      <path d="M86 200l49 43 43-48 40 37-20 187H91L65 233z" fill="#182235" stroke="#5d9ecb" stroke-width="3"/>
+      <path d="M121 233l18 30 20-27 21 29-20 154h-43l-21-153z" fill="#080c15"/>
+      <path d="M94 111c-4-60 25-97 69-99 49-2 77 36 73 96l-7 61c-7 35-31 59-62 59-33 0-58-26-66-61z" fill="url(#skin)" stroke="#171421" stroke-width="5"/>
+      <path d="M91 119 72 79l36 9-9-53 40 30 6-57 31 50 34-43-2 56 43-18-20 57-32-14-26 11-27-13-31 21z" fill="#11121d" stroke="#171421" stroke-width="6"/>
+      <path d="M111 132l34 7m36-8 31-5" stroke="#182338" stroke-width="5"/>
+      <path d="M153 171c12 5 26 4 38-3" fill="none" stroke="#75465e" stroke-width="4"/>
+      <path d="M39 319l45-76m208 34-37 47" stroke="#8ed8ff" stroke-width="4" opacity=".95"/>
+    </g>
+
+    <!-- Nobara: auburn bob, confident expression, warm gold rim light -->
+    <g transform="translate(820 290)">
+      <path d="M0 385c12-104 37-174 91-199 38-17 83-15 119 9 44 29 60 102 66 190z" fill="#29202a" stroke="#d89b55" stroke-width="4"/>
+      <path d="M87 201l43 38 43-39 34 31-19 153H91L66 234z" fill="#59402f" stroke="#ecc07b" stroke-width="3"/>
+      <path d="M121 228l18 27 18-27 18 26-17 129h-42l-19-130z" fill="#15131a"/>
+      <path d="M93 111c-2-58 25-94 68-94 46 0 71 38 68 94l-6 57c-6 34-29 58-60 58-31 0-56-24-64-58z" fill="url(#skin)" stroke="#21171a" stroke-width="5"/>
+      <path d="M91 125c-14-79 13-118 62-120 44-1 72 21 82 79l-18 58-9-44-31-26-19 25-30-21-30 49-10 55-16-35z" fill="#b45b32" stroke="#26191b" stroke-width="6"/>
+      <path d="M109 132l32 6m39-7 29-3" stroke="#38202a" stroke-width="5"/>
+      <path d="M151 172c13 7 27 7 39-1" fill="none" stroke="#814456" stroke-width="4"/>
+      <path d="M53 287l22-46m198 30-25-47" stroke="#ffe0a2" stroke-width="4"/>
+      <!-- small hammer silhouette -->
+      <path d="M25 204l48 37m-55-55 19-24 54 43-19 24z" fill="#5b392f" stroke="#f3c477" stroke-width="3"/>
+    </g>
+
+    <!-- Gojo: tallest in back, white hair and black blindfold -->
+    <g transform="translate(944 183)">
+      <path d="M0 492c9-134 33-231 91-271 43-29 100-27 145 5 58 41 73 133 81 266z" fill="#151421" stroke="#bda2ff" stroke-width="5"/>
+      <path d="M77 230l58 57 49-57 47 45-18 215H99L63 273z" fill="#262337" stroke="#d4c2ff" stroke-width="3"/>
+      <path d="M133 280l24 31 24-31 24 30-24 180h-48l-25-180z" fill="#090a12"/>
+      <path d="M89 123c-4-72 29-116 83-118 57-2 90 44 82 116l-11 77c-8 43-38 70-74 70-37 0-68-30-77-75z" fill="url(#skin)" stroke="#171421" stroke-width="6"/>
+      <path d="M82 141 56 96l45 11-7-74 46 47 4-75 35 62 47-49-9 68 49-23-24 81-35-19-35 16-37-15-34 25z" fill="#f2efff" stroke="#242034" stroke-width="6"/>
+      <path d="M82 147c55-23 123-27 181-8l-10 48c-57-17-111-10-163 16z" fill="#11111b" stroke="#9d82d9" stroke-width="3"/>
+      <path d="M113 211c18 12 41 13 59 3" fill="none" stroke="#724866" stroke-width="4"/>
+      <path d="M44 344l43-72m249 40-41-71" stroke="#f2eaff" stroke-width="5"/>
+    </g>
+
+    <!-- Sukuna: marked face, dark robes, crimson aura at the far edge -->
+    <g transform="translate(1090 273)">
+      <path d="M-5 402c10-113 33-186 82-213 40-22 87-19 122 9 43 34 56 109 62 204z" fill="#21131d" stroke="#f24c63" stroke-width="4"/>
+      <path d="M69 205l39 37 40-39 33 32-19 159H76L52 235z" fill="#21151d" stroke="#b94457" stroke-width="3"/>
+      <path d="M99 236l17 28 18-28 18 26-16 132h-41L77 261z" fill="#08090e"/>
+      <path d="M70 111c-2-57 23-91 63-92 45-1 70 37 66 95l-7 58c-7 34-28 57-58 57-31 0-54-25-61-59z" fill="url(#skin)" stroke="#24121b" stroke-width="5"/>
+      <path d="M66 119c-12-66 16-112 65-115 35-2 59 14 73 50l-27 2-23 25-26-19-27 34-21 46z" fill="#d5a0ac" stroke="#29151d" stroke-width="6"/>
+      <path d="M83 135l30 7m35-8 29-4" stroke="#24111a" stroke-width="5"/>
+      <path d="M127 166c12 5 25 3 35-4" fill="none" stroke="#572331" stroke-width="4"/>
+      <path d="M90 123l21 8-12 22m47-28 19-10-3 26m-53 43 21-4" fill="none" stroke="#9d263c" stroke-width="5"/>
+      <path d="M31 282l42-46m202 29-40-48" stroke="#ff6b73" stroke-width="4"/>
+    </g>
   </g>
 
-  <!-- foreground impact slash -->
+  <!-- manga ink shadows behind the title side, keeping the left design intact -->
+  <path d="M0 0h590l-48 675H0z" fill="url(#panelFade)"/>
   <path d="M594 496 1200 281" stroke="#c45bff" stroke-width="26" opacity=".27" filter="url(#soft)"/>
   <path d="M578 506 1200 283" stroke="#f2e9ff" stroke-width="3" opacity=".9"/>
   <path d="M596 520 1200 303" stroke="#a95aff" stroke-width="8" opacity=".8"/>
 
-  <!-- title panel -->
+  <!-- original title panel -->
   <path d="M0 0h585l-43 675H0z" fill="#080912" opacity=".78"/>
   <path d="M548 0h5L510 675h-5z" fill="#b885ff" opacity=".9"/>
   <path d="M0 0h12v675H0z" fill="#9c5cff"/>
@@ -86,13 +116,7 @@
   <path d="M78 402h360" stroke="#a66bff" stroke-width="4"/>
   <text x="80" y="461" fill="#f4efff" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="800" letter-spacing="8">JJK FIGHT</text>
   <text x="81" y="501" fill="#b9aecb" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600" letter-spacing="3">ENTER THE CURSED BATTLE</text>
-  <g transform="translate(81 548)">
-    <rect width="176" height="48" rx="4" fill="#8b45f5"/>
-    <path d="M22 15l18 9-18 10z" fill="#fff"/>
-    <text x="54" y="31" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="800" letter-spacing="2">PLAY NOW</text>
-  </g>
+  <g transform="translate(81 548)"><rect width="176" height="48" rx="4" fill="#8b45f5"/><path d="M22 15l18 9-18 10z" fill="#fff"/><text x="54" y="31" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="800" letter-spacing="2">PLAY NOW</text></g>
   <text x="80" y="642" fill="#766a8b" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="3">ANIME-INSPIRED ACTION GAME</text>
-  <g transform="translate(1105 44)" fill="none" stroke="#cbb0ff" opacity=".8">
-    <path d="M0 0h42v42H0z" stroke-width="2"/><path d="M11 11l20 20m0-20L11 31" stroke-width="2"/>
-  </g>
+  <g transform="translate(1105 44)" fill="none" stroke="#cbb0ff" opacity=".8"><path d="M0 0h42v42H0z" stroke-width="2"/><path d="M11 11l20 20m0-20L11 31" stroke-width="2"/></g>
 </svg>
