@@ -7,7 +7,7 @@ Welcome to my creative digital space. Here are my featured websites, apps, and c
   <tr>
     <td width="50%" valign="top">
       <a href="https://asn7.itch.io/jjkfight">
-        <img src="assets/project-banners/jjk-game.svg" alt="Jujutsu Kaisen Game banner" width="100%" />
+        <img src="assets/project-banners/file_0000000039248211b4cbea6b8ec59961.png" alt="Jujutsu Kaisen Game banner" width="100%" />
       </a>
       <h3>🎮 Jujutsu Kaisen Game</h3>
       <p>Anime-inspired action with a dramatic violet cursed-energy atmosphere.</p>
