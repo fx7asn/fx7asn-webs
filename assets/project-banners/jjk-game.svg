@@ -1,32 +1,132 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
-  <title id="title">Jujutsu Kaisen Game</title>
-  <desc id="desc">Anime-inspired game banner with an original sorcerer silhouette, violet cursed-energy effects, and the game title.</desc>
+  <title id="title">Jujutsu Kaisen Game campaign banner</title>
+  <desc id="desc">Cool anime-inspired purple banner with a white-haired fighter silhouette and glowing cursed-energy effects.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#090510"/><stop offset=".48" stop-color="#24103e"/><stop offset="1" stop-color="#080714"/></linearGradient>
-    <radialGradient id="glow"><stop stop-color="#ff52e5" stop-opacity=".9"/><stop offset=".45" stop-color="#8b3dff" stop-opacity=".48"/><stop offset="1" stop-color="#6c2cff" stop-opacity="0"/></radialGradient>
-    <linearGradient id="robe" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f4eaff"/><stop offset=".28" stop-color="#a789ff"/><stop offset=".68" stop-color="#4420a0"/><stop offset="1" stop-color="#100b22"/></linearGradient>
-    <filter id="blur"><feGaussianBlur stdDeviation="18"/></filter>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#150c18"/>
+      <stop offset="0.15" stop-color="#2b0d2f"/>
+      <stop offset="0.5" stop-color="#2d1548"/>
+      <stop offset="0.78" stop-color="#120f24"/>
+      <stop offset="1" stop-color="#09070d"/>
+    </linearGradient>
+    <radialGradient id="auraL" cx="0.25" cy="0.45" r="0.65">
+      <stop offset="0" stop-color="#fd5cff" stop-opacity="0.95"/>
+      <stop offset="0.4" stop-color="#e75dfb" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#d15fff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="auraR" cx="0.72" cy="0.42" r="0.7">
+      <stop offset="0" stop-color="#ff8ef5" stop-opacity="0.9"/>
+      <stop offset="0.45" stop-color="#a843ff" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#220f3d" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="coat" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f5f2ff"/>
+      <stop offset="0.35" stop-color="#ae8cff"/>
+      <stop offset="0.72" stop-color="#42257c"/>
+      <stop offset="1" stop-color="#150d2d"/>
+    </linearGradient>
+    <filter id="blur20"><feGaussianBlur stdDeviation="20"/></filter>
+    <filter id="blur40"><feGaussianBlur stdDeviation="40"/></filter>
+    <filter id="softGlow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <linearGradient id="lineGlow" x1="0" x2="1">
+      <stop offset="0" stop-color="#ff66d9"/>
+      <stop offset="0.5" stop-color="#feeeff"/>
+      <stop offset="1" stop-color="#9f6bff"/>
+    </linearGradient>
   </defs>
+
   <rect width="1200" height="400" fill="url(#bg)"/>
-  <ellipse cx="245" cy="210" rx="290" ry="220" fill="url(#glow)"/>
-  <ellipse cx="920" cy="235" rx="300" ry="230" fill="url(#glow)" opacity=".8"/>
-  <g fill="none" stroke-linecap="round">
-    <path d="M-30 320C140 220 145 100 310 80S455 170 560 78M-10 365C160 260 195 150 330 155s170 90 255-5M60 50c80 125 185 128 260 225" stroke="#ed5cff" stroke-width="5" opacity=".7"/>
-    <path d="M570 345c105-110 126-180 270-200s207 0 398-110M710 385c94-130 195-145 293-160s119-55 197-121" stroke="#8c65ff" stroke-width="4" opacity=".72"/>
-    <path d="M95 180l70 25-42 55 95-30M1060 70l-50 67 70 17-64 71" stroke="#fff" stroke-width="3" opacity=".65"/>
+
+  <g opacity="0.9">
+    <ellipse cx="240" cy="210" rx="285" ry="210" fill="url(#auraL)"/>
+    <ellipse cx="900" cy="220" rx="320" ry="220" fill="url(#auraR)"/>
   </g>
-  <circle cx="300" cy="245" r="92" fill="#ff47dc" opacity=".5" filter="url(#blur)"/>
-  <circle cx="302" cy="245" r="45" fill="#fff" opacity=".92"/>
-  <circle cx="302" cy="245" r="28" fill="#dc42ff"/>
-  <!-- Original anime-inspired fighter silhouette; intentionally not a depiction of a specific character. -->
-  <path d="M730 400c30-80 68-110 92-132-33-30-47-72-38-117 10-53 53-92 105-96 56-4 101 35 108 88 8 55-16 99-55 126 78 21 138 63 185 131H730z" fill="url(#robe)"/>
-  <path d="M781 152c-9-67 35-124 99-130 55-5 103 29 120 78-31-23-56-29-85-26 12 16 17 31 16 48-18-20-42-34-68-37-23 23-45 44-82 67z" fill="#f7edff"/>
-  <path d="M868 153c17-15 38-18 59-7-17 8-29 17-38 31" fill="none" stroke="#fb63ee" stroke-width="9" stroke-linecap="round"/>
-  <path d="M821 209c26 14 55 17 84 7" fill="none" stroke="#21113d" stroke-width="9" stroke-linecap="round"/>
-  <path d="M805 260c48 17 100 18 153-3M787 308l76 35 80-50" fill="none" stroke="#d5c1ff" stroke-width="7" opacity=".75"/>
-  <text x="58" y="94" fill="#f0c84b" font-family="Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="7">CURSED ENERGY • ACTION • SURVIVE</text>
-  <text x="54" y="190" fill="#fff" stroke="#201029" stroke-width="3" paint-order="stroke" font-family="Arial,sans-serif" font-size="68" font-weight="900" letter-spacing="1">JUJUTSU</text>
-  <text x="57" y="268" fill="#f0c84b" stroke="#21102f" stroke-width="4" paint-order="stroke" font-family="Arial,sans-serif" font-size="78" font-weight="900">KAISEN</text>
-  <text x="64" y="322" fill="#eadcf8" font-family="Arial,sans-serif" font-size="25" font-weight="700" letter-spacing="10">FAN GAME</text>
-  <path d="M60 340h400" stroke="#e04fff" stroke-width="3" opacity=".85"/>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.7">
+    <path d="M0 310C98 256 170 140 292 126s194 72 258 20" stroke="#ff74ff" stroke-width="5"/>
+    <path d="M0 355C120 280 192 195 300 194s192 85 280 30" stroke="#a66dff" stroke-width="4"/>
+    <path d="M843 80c62 18 111 55 156 120 33 47 61 96 120 126" stroke="#ff9bf5" stroke-width="4"/>
+    <path d="M720 370c90-124 159-176 303-185 55-4 120-28 183-97" stroke="#b78cff" stroke-width="4"/>
+    <path d="M70 80c66 44 143 57 197 112" stroke="#ff7af2" stroke-width="3" opacity="0.6"/>
+    <path d="M900 50c-40 20-75 55-75 95" stroke="#ffb9ff" stroke-width="2.5"/>
+  </g>
+
+  <g filter="url(#blur40)" opacity="0.5">
+    <circle cx="575" cy="260" r="90" fill="#ff5ee9"/>
+    <circle cx="280" cy="248" r="48" fill="#ff89e8"/>
+  </g>
+
+  <!-- Left hand glow -->
+  <g opacity="0.9">
+    <path d="M145 258c-52 26-78 90-44 125 31 33 95 25 136-32 22-30 22-90 8-116-17-30-62-40-100 23z" fill="#ff8ffa" opacity="0.42" filter="url(#blur20)"/>
+    <path d="M160 278c-26 15-39 51-25 76 18 31 65 34 91 3 15-18 15-52 0-72-18-22-45-28-66-7z" fill="#f6f0ff" opacity="0.82"/>
+  </g>
+
+  <!-- Magical energy trails -->
+  <g opacity="0.85" filter="url(#softGlow)">
+    <path d="M765 224c45-38 75-87 100-134" stroke="#ffb0f2" stroke-width="4" fill="none"/>
+    <path d="M700 260c80-16 129-6 177 52" stroke="#fbf4ff" stroke-width="5" fill="none"/>
+    <path d="M810 272c42 50 72 80 120 94" stroke="#ff9fef" stroke-width="4" fill="none"/>
+    <path d="M172 252c53 28 112 35 152 107" stroke="#f8d8ff" stroke-width="5" fill="none"/>
+  </g>
+
+  <!-- Character silhouette -->
+  <g>
+    <path d="M745 375c17-62 50-108 86-130-28-31-36-67-31-109 8-64 59-114 124-120 67-7 123 28 137 96 10 48-6 96-39 126 60 23 98 71 126 155H745z" fill="url(#coat)"/>
+
+    <!-- hair -->
+    <path d="M786 144c-35-71 7-133 81-147 81-15 141 42 145 121-34-24-65-32-95-29 4 14 8 31 9 49-24-17-52-29-78-27-27 2-46 15-62 33z" fill="#fff"/>
+    <path d="M824 132c17-18 39-27 66-26 9 0 18 2 28 5-13 7-23 18-30 29" fill="none" stroke="#f13ce9" stroke-width="8" stroke-linecap="round"/>
+    <path d="M820 154c42 16 96 12 147-18" fill="none" stroke="#dfd9ff" stroke-width="5" opacity="0.5"/>
+
+    <!-- face -->
+    <path d="M850 195c-7-31 18-56 55-60 60-6 90 36 82 83-12 48-47 72-80 73-62 3-85-44-57-96z" fill="#f3f0ff" opacity="0.96"/>
+    <path d="M878 204c10-8 25-13 39-12 23 2 39 15 41 36" fill="none" stroke="#2d2248" stroke-width="3"/>
+    <path d="M905 235c13 19 12 42-2 58" fill="none" stroke="#2d2248" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="894" cy="220" r="5" fill="#1d7be4"/>
+    <circle cx="926" cy="217" r="5" fill="#1d7be4"/>
+    <path d="M899 242c16 9 27 8 38 0" fill="none" stroke="#0f132c" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- shoulder / body -->
+    <path d="M812 279c39 13 83 18 125 8" fill="none" stroke="#2d1b4d" stroke-width="10" stroke-linecap="round"/>
+    <path d="M820 316c44 17 92 22 158 8" fill="none" stroke="#2b1c4a" stroke-width="9" stroke-linecap="round"/>
+    <path d="M775 275l-65 73 41 32 64-56" fill="#090b1e" opacity="0.82"/>
+    <path d="M960 291l74 89 40-39-66-85" fill="#100b1a" opacity="0.85"/>
+  </g>
+
+  <!-- Head sparks / aura -->
+  <g opacity="0.8" filter="url(#softGlow)">
+    <path d="M250 286c-14 34-33 54-58 66" stroke="#ffffff" stroke-width="3" fill="none"/>
+    <path d="M260 250c-36-17-70-13-95 10" stroke="#ffffff" stroke-width="3" fill="none"/>
+    <path d="M302 304c25 31 51 53 104 70" stroke="#ffb2ff" stroke-width="3" fill="none"/>
+  </g>
+
+  <!-- large title text -->
+  <g>
+    <text x="45" y="110" fill="#f7d752" font-size="20" font-family="'Arial Black', Arial, sans-serif" font-weight="700" letter-spacing="2" opacity="0.9">呪術廻戦</text>
+
+    <text x="50" y="188" fill="#f7e4f9" font-size="66" font-family="'Arial Black', Arial, sans-serif" font-weight="900" stroke="#2d1036" stroke-width="5" paint-order="stroke" letter-spacing="1">呪術廻戦</text>
+
+    <text x="80" y="252" fill="#f5d4ff" font-size="48" font-family="'Segoe Print', 'Bradley Hand', cursive" font-weight="700" font-style="italic" letter-spacing="1" stroke="#8b2edc" stroke-width="2" paint-order="stroke">Jujutsu Kaisen Game UI</text>
+  </g>
+
+  <!-- Bottom brand line -->
+  <g>
+    <path d="M265 322c23-11 42-18 61-19 29-2 54 4 76 25 16 15 28 24 42 26 28 4 44-23 59-19 20 5 31 24 58 41" stroke="url(#lineGlow)" stroke-width="3" fill="none" opacity="0.85"/>
+    <text x="410" y="318" fill="#c4f3ff" font-size="25" font-family="'Segoe Print', cursive" font-weight="700">A Fan UI Project Created By Justin Gleason</text>
+    <text x="430" y="350" fill="#c7d9ff" font-size="14" font-family="Arial, sans-serif" letter-spacing="1">https://JustinGleason.Artstation.Com/</text>
+    <text x="1048" y="350" fill="#f3ebff" font-size="18" font-family="Arial, sans-serif" font-weight="900" letter-spacing="1">MATRA</text>
+    <text x="1048" y="370" fill="#f3ebff" font-size="9" font-family="Arial, sans-serif" font-weight="700" letter-spacing="2">STUDIO</text>
+  </g>
+
+  <g>
+    <text x="560" y="392" fill="#f7f7f7" font-size="26" font-family="Arial, sans-serif" font-style="italic" font-weight="700" text-anchor="middle">Thumbnail</text>
+  </g>
+
+  <g opacity="0.75">
+    <path d="M27 25l35 0" stroke="#f5b4ff" stroke-width="2"/>
+    <path d="M25 30l0 25" stroke="#f5b4ff" stroke-width="2"/>
+    <path d="M1175 25l-35 0" stroke="#f5b4ff" stroke-width="2"/>
+    <path d="M1175 30l0 25" stroke="#f5b4ff" stroke-width="2"/>
+  </g>
 </svg>
